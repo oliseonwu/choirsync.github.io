@@ -31,7 +31,7 @@ h2 {
 
 ul {
     padding-left: 20px;
-    list-style-type: none;
+    list-style-type:circle;
 }
 
 li {
@@ -39,18 +39,9 @@ li {
     position: relative;
 }
 
-li::before {
-    content: "•";
-    position: absolute;
-    top: 10.5px;
-    left: -15px;
-    font-size: 1.5em;
-    line-height: 0;
-    font-weight: bold;
-    /* height: 1.5em; */
-    
-}
-
 .email {
     font-weight: bold;
+    color: #333;
+    /* text-decoration: none; */
 }
+
