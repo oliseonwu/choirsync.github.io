@@ -42,7 +42,7 @@ li {
 li::before {
     content: "•";
     position: absolute;
-    top: 10px;
+    top: 10.5px;
     left: -15px;
     font-size: 1.5em;
     line-height: 0;
