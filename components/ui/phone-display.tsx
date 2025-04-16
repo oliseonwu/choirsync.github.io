@@ -24,7 +24,7 @@ export function PhoneDisplay({
       <div className="absolute -inset-4 bg-gradient-to-br from-[#bda293]/15 via-[#e5dbd5]/20 to-[#bda293]/15 rounded-[50px] blur-md opacity-40"></div>
       <div className="absolute -inset-2 bg-gradient-to-tr from-[#bda293]/20 via-[#f0ebe8]/25 to-[#bda293]/20 rounded-[45px] blur-sm opacity-50"></div>
       <Image
-        src="/IPhone2.svg"
+        src="./IPhone2.svg"
         alt="iPhone mockup"
         fill
         priority

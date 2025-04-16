@@ -1,5 +1,5 @@
 node_modules
-/.next
+.next
 
 cloud/.parse.local
 cloud/.parse.project
