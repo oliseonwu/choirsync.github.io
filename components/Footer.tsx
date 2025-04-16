@@ -4,15 +4,21 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-export default function Footer() {
+export default function Footer({
+  showJoinWaitlist = true,
+}: {
+  showJoinWaitlist?: boolean;
+}) {
   return (
     <footer className="container mx-auto py-8 px-4 text-center">
-      <Link href="/waitlist">
-        <Button variant="outline" className="rounded-md px-6 gap-2">
-          <ArrowRight className="w-4 h-4" />
-          Join Waitlist
-        </Button>
-      </Link>
+      {showJoinWaitlist && (
+        <Link href="/waitlist">
+          <Button variant="outline" className="rounded-md px-6 gap-2">
+            <ArrowRight className="w-4 h-4" />
+            Join Waitlist
+          </Button>
+        </Link>
+      )}
       <div className="flex justify-center gap-6 mt-6 mb-2">
         <Link
           href="/privacy-policy"
