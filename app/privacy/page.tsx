@@ -146,7 +146,7 @@ export default function PrivacyPolicyPage() {
         </div>
       </main>
 
-      <Footer />
+      <Footer showJoinWaitlist={false} />
     </div>
   );
 }

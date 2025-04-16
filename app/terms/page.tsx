@@ -176,7 +176,7 @@ export default function TermsPage() {
         </div>
       </main>
 
-      <Footer />
+      <Footer showJoinWaitlist={false} />
     </div>
   );
 }
