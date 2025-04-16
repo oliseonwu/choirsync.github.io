@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowRight, FileMusic } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Footer from "@/components/Footer";
+import { Header } from "@/components/header";
 
 export default function TermsPage() {
   return (
@@ -9,29 +10,7 @@ export default function TermsPage() {
       className="min-h-screen flex flex-col bg-gray-50"
       suppressHydrationWarning
     >
-      <header className="container mx-auto py-6 px-4 flex justify-between items-center bg-white">
-        <Link href="/" className="flex items-center gap-2">
-          <div className="w-10 h-10 rounded-md border flex items-center justify-center">
-            <FileMusic className="w-5 h-5 text-neutral-700" />
-          </div>
-          <span className="text-xl font-medium text-neutral-800">
-            ChoirSync
-          </span>
-        </Link>
-        <div className="hidden md:block text-center text-neutral-500">
-          Lets organize your
-          <br />
-          choir files.
-        </div>
-        <div className="hidden md:block">
-          <Link href="/waitlist">
-            <Button variant="outline" className="rounded-md px-4 gap-2">
-              <ArrowRight className="w-4 h-4" />
-              Join Waitlist
-            </Button>
-          </Link>
-        </div>
-      </header>
+      <Header />
 
       <main className="flex-1 container mx-auto px-4 py-12">
         <div className="max-w-3xl mx-auto text-center mb-12">

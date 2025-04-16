@@ -57,3 +57,32 @@
     @apply bg-background text-foreground;
   }
 }
+
+.shimmer-container {
+  position: relative;
+  overflow: visible;
+}
+
+.shimmer-effect {
+  position: absolute;
+  inset: -20px;
+  border-radius: 40px;
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0) 70%
+  );
+  z-index: 5;
+  animation: shimmer 3s infinite alternate;
+}
+
+@keyframes shimmer {
+  0% {
+    opacity: 0.3;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 0.7;
+    transform: scale(1.05);
+  }
+}
