@@ -9,7 +9,7 @@ async function checkEmailExists(email) {
   const Waitlist = Parse.Object.extend("Waitlist");
   const query = new Parse.Query(Waitlist);
   query.equalTo("email", email);
-  const count = await query.countDocuments({ useMasterKey: true });
+  const count = await query.count({ useMasterKey: true });
   return count > 0;
 }
 
