@@ -21,7 +21,7 @@ export default function Footer({
       )}
       <div className="flex justify-center gap-6 mt-6 mb-2">
         <Link
-          href="/privacy-policy"
+          href="/privacy"
           className="text-sm text-neutral-500 hover:text-neutral-800"
         >
           Privacy Policy
