@@ -4,9 +4,10 @@
     "target": {
       "namespace": "android_app",
       "package_name": "com.olise.ChoirSync",
-      "sha256_cert_fingerprints":
-        ["A7:E2:A4:43:45:7D:10:98:87:EB:E7:89:99:53:72:04:B8:7A:CD:23:7C:88:9D:01:E5:A5:83:B1:E6:89:AF:5E",
-        "C1:F3:E1:20:93:98:48:6D:1E:E5:A9:CF:E9:59:D6:B5:C8:5C:E0:4D:32:79:00:56:AE:0C:19:D7:40:50:6A:10"]
+      "sha256_cert_fingerprints":[
+        "A7:E2:A4:43:45:7D:10:98:87:EB:E7:89:99:53:72:04:B8:7A:CD:23:7C:88:9D:01:E5:A5:83:B1:E6:89:AF:5E",
+        "C1:F3:E1:20:93:98:48:6D:1E:E5:A9:CF:E9:59:D6:B5:C8:5C:E0:4D:32:79:00:56:AE:0C:19:D7:40:50:6A:10"
+      ]
     }
   }
 ]
