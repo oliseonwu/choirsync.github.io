@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: "/link-preview.png", // Path relative to the public directory
+        url: "./link-preview.png", // Path relative to the public directory
         width: 1200, // Recommended width
         height: 630, // Recommended height
         alt: "ChoirSync Preview Image",
