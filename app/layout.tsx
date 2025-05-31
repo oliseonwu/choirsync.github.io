@@ -11,6 +11,20 @@ export const metadata: Metadata = {
   description:
     "ChoirSync helps you easily upload, access and manage your choir's files in one place.",
   generator: "v0.dev",
+  openGraph: {
+    images: [
+      {
+        url: "/link-preview.png", // Path relative to the public directory
+        width: 1200, // Recommended width
+        height: 630, // Recommended height
+        alt: "ChoirSync Preview Image",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/link-preview.png"],
+  },
 };
 
 export default function RootLayout({
