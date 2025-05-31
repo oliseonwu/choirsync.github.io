@@ -7,6 +7,7 @@ import { Toaster } from "sonner";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://choirsync.info/"),
   title: "ChoirSync - Organize Your Choir Files",
   description:
     "ChoirSync helps you easily upload, access and manage your choir's files in one place.",
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: "./link-preview.png", // Path relative to the public directory
+        url: "/link-preview.png", // Path relative to the public directory
         width: 1200, // Recommended width
         height: 630, // Recommended height
         alt: "ChoirSync Preview Image",
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["./link-preview.png"],
+    images: ["/link-preview.png"],
   },
 };
 
